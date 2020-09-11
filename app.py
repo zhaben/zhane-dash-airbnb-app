@@ -13,7 +13,7 @@ airbnb_data = pd.read_csv("AB_NYC_2019.csv")
 
 
 app = dash.Dash(__name__)
-# server = app.server
+server = app.server
 
 # ------------------------------------------------------------------------------
 # Import and clean data (importing csv into pandas)
